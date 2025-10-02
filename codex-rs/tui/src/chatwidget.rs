@@ -3185,6 +3185,7 @@ impl ChatWidget<'_> {
             reasoning_index: HashMap::new(),
             stream_order_seq: HashMap::new(),
             last_seen_request_index: 0,
+            request_ordinal_offset: 0,
             current_request_index: 0,
             internal_seq: 0,
             show_order_overlay,
